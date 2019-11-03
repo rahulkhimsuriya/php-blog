@@ -1,0 +1,24 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+li.nav-item {
+  margin-left: 30px;
+}
+
+footer {
+  background: #efefef;
+  color: black;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .nav-link {
+    text-align: center;
+  }
+  #tech .row div {
+    padding: 20px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

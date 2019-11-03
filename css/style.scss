@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+li.nav-item {
+  margin-left: 30px;
+}
+
+footer {
+  background: #efefef;
+  color: black;
+}
+
+// ***********************************
+
+// !Mobile Site
+@media only screen and (max-width: 767.98px) {
+  // Navbar link
+  .nav-link {
+    text-align: center;
+  }
+
+  #tech .row div {
+    padding: 20px 0;
+  }
+}
